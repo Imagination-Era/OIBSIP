@@ -125,7 +125,7 @@ public class NumGuess extends JFrame {
     }
     private void resetGame() {
         randomNumber = (int) (Math.random() * 100) + 1;
-        guessesLeft = 10;
+        guessesLeft = 5;
         score = 0;
         attempts = 0;
         UserGuess.setEditable(true);
